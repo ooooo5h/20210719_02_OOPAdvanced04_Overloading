@@ -11,6 +11,12 @@ public class MainDrive {
 		
 		mtc.testMethod(10);
 		
+		mtc.testMethod(7, "이건 성공");
+		
+		mtc.testMethod("이것도 성공");
+		
+		mtc.testMethod("이것도 합격", 8);
+		
 	}
 
 }
